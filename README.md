@@ -1,5 +1,13 @@
 # Trattoria
 
+### Java 11 & PSQL required
+
+## Create Database PSQL
+`psql -U postgres -d trattoria_db -f restorantPoblado.sql`
+
+## If clean install is necessary
+`mvn clean install`
+
 ## Run Project
 `mvn spring-boot:run`
 
@@ -8,12 +16,3 @@
 
 ## API
 `http://localhost:8080/api/comandas`
-
-## If clean install is necessary
-`mvn clean install`
-
-## Create Database PSQL
-`psql -U postgres -d trattoria_db -f restorantPoblado.sql`
-
-### Java 11 & PSQL required 
-
